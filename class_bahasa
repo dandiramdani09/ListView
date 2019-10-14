@@ -1,0 +1,12 @@
+package com.example.listview2
+
+class bahasa {
+    var nama: String? = null
+    var deskripsi : String?=null
+    var gambar: Int?=null
+    constructor(name: String,des:String, gambar:Int){
+        this.nama=name
+        this.deskripsi=des
+        this.gambar=gambar
+    }
+}
